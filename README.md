@@ -54,7 +54,7 @@ You can build the project using Maven:
 To run the application, use the generated JAR file:
 
 ```bash
-java -jar target/prescription-webapp-NoSQL-1.0.0-SNAPSHOT.jar
+java -jar dist/prescription-webapp-NoSQL-1.0.0-SNAPSHOT.jar
 ```
 
 -----
@@ -66,4 +66,4 @@ This project follows a standard Maven project structure. The key directories and
   * `src/main/java`: Contains the Java source code.
   * `src/main/resources`: Contains configuration files and web resources.
   * `pom.xml`: The project's configuration file.
-  * `target/`: The directory where compiled code and the runnable JAR file are generated. This directory should only contain the final JAR file after a successful build.
+  * `dist/`: The directory where compiled code and the runnable JAR file are generated. This directory should only contain the final JAR file after a successful build.
