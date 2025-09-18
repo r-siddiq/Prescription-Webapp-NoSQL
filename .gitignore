@@ -1,6 +1,5 @@
 # Maven target build output
 /target/
-!target/*.jar
 
 # Maven wrapper (keep these in Git!)
 !.mvn/wrapper/maven-wrapper.jar
