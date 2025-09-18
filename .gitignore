@@ -1,0 +1,52 @@
+# Maven target build output
+/target/
+!target/*.jar
+
+# Maven wrapper (keep these in Git!)
+!.mvn/wrapper/maven-wrapper.jar
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!mvnw.cmd
+
+# Ignore all jars except the one in dist/
+*.jar
+!dist/*.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.project
+.classpath
+.settings/
+bin/
+
+# VS Code
+.vscode/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# Java artifacts
+*.class
+*.war
+*.ear
+
+# Node/npm
+node_modules/
+
+# Spring Boot dev files
+spring.log
